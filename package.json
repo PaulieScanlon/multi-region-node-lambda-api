@@ -4,6 +4,9 @@
   "description": "An example of how to build a multi-region Node.js Lambda API using Serverless Framework and AWS",
   "main": "index.js",
   "scripts": {
+    "us-east-1": "serverless deploy --region us-east-1",
+    "eu-central-1": "serverless deploy --region eu-central-1",
+    "deploy": "npm run us-east-1 && npm run eu-central-1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
