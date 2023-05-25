@@ -6,7 +6,8 @@
   "scripts": {
     "us-east-1": "serverless deploy --region us-east-1",
     "eu-central-1": "serverless deploy --region eu-central-1",
-    "deploy": "npm run us-east-1 && npm run eu-central-1",
+    "ap-southeast-1": "serverless deploy --region ap-southeast-1",
+    "deploy": "npm run us-east-1 && npm run eu-central-1 && npm run ap-southeast-1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
