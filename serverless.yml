@@ -23,3 +23,9 @@ functions:
       - httpApi:
           path: /create
           method: POST
+  read:
+    handler: v1/read.handler
+    events:
+      - httpApi:
+          path: /read
+          method: GET
