@@ -17,3 +17,9 @@ functions:
       - httpApi:
           path: /
           method: GET
+  create:
+    handler: v1/create.handler
+    events:
+      - httpApi:
+          path: /create
+          method: POST
