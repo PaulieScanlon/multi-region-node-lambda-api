@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/PaulieScanlon/multi-region-node-lambda-api/issues"
   },
-  "homepage": "https://github.com/PaulieScanlon/multi-region-node-lambda-api#readme"
+  "homepage": "https://github.com/PaulieScanlon/multi-region-node-lambda-api#readme",
+  "dependencies": {
+    "serverless-postgres": "^2.0.2"
+  }
 }
