@@ -5,6 +5,9 @@ module.exports.handler = async () => {
   const region = `aws-${process.env.AWS_REGION}`;
 
   try {
+    // Remove for production
+    throw new Error('Disabled for demo');
+
     await client.connect();
 
     await client.query('INSERT INTO data (date, region) VALUES($1, $2)', [date, region]);
